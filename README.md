@@ -1,1 +1,1 @@
-# GameDev_Unity & C#
+# GameDev_Unity & C# (training)
