@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace Listing_3._3
+namespace Listing_3._4
 {
     class Program
     {
@@ -18,12 +21,14 @@ namespace Listing_3._3
 
             // Оператор цикла:
 
-            while(k <= n)
+            do
             {
                 s += 2 * k - 1; // Добавляем слагаемое в сумму
 
                 k++;            // Новое значение индексной переменной
             }
+            
+            while (k <= n);
 
             // Отображение вычисленного значения;
 
